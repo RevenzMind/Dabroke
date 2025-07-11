@@ -1,0 +1,70 @@
+.upload-container {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-header {
+  margin-bottom: 1.5rem;
+}
+
+.upload-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-drop-area {
+  border: 2px dashed #555;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.file-drop-area:hover {
+  border-color: var(--primary-color);
+  background-color: rgba(0, 123, 255, 0.05);
+}
+
+.file-drop-area.file-selected {
+  border-color: var(--primary-color);
+  background-color: rgba(0, 123, 255, 0.05);
+}
+
+.upload-icon {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.file-types {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+
+.selected-file-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.file-name {
+  font-weight: 600;
+}
+
+.file-size {
+  color: #888;
+  font-size: 0.9rem;
+}

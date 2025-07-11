@@ -1,0 +1,29 @@
+.app-container {
+  display: flex;
+  min-height: calc(100vh - var(--controlbox-height));
+  background-color: var(--background);
+  margin-top: var(--controlbox-height);
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-lg) 0;
+}
+
+.page-header {
+  margin-bottom: var(--spacing-xl);
+}
+
+.page-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.page-description {
+  font-size: var(--font-size-lg);
+  color: var(--text-muted);
+  line-height: var(--line-height-relaxed);
+}

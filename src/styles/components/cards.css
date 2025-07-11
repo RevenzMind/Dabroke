@@ -1,0 +1,144 @@
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.card-header {
+  margin-bottom: var(--spacing-md);
+}
+
+.card-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+}
+
+.card-subtitle {
+  color: var(--text-muted);
+  font-size: var(--font-size-base);
+}
+
+.card-body {
+  margin-bottom: var(--spacing-md);
+}
+
+.card-footer {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--border-color);
+}
+
+.card-compact {
+  padding: var(--spacing-md);
+}
+
+.card-hover {
+  transition: all var(--transition-normal);
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.voice-card {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.voice-card:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.voice-icon {
+  font-size: 1.5rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.voice-info {
+  flex: 1;
+  min-width: 0; }
+
+.voice-info h3 {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.voice-date,
+.voice-id {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  margin: 0;
+}
+
+.delete-voice {
+  position: absolute;
+  top: var(--spacing-xs);
+  right: var(--spacing-xs);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--error-color);
+  color: white;
+  border: none;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.voice-card:hover .delete-voice {
+  opacity: 1;
+}
+
+.delete-voice:hover {
+  background-color: #c0392b;
+  transform: scale(1.1);
+}
+
+.empty-state {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--text-muted);
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.5;
+}
+
+.empty-state h2 {
+  color: var(--text-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.empty-state p {
+  max-width: 400px;
+  margin: 0 auto;
+}

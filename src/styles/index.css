@@ -1,0 +1,19 @@
+@import "./base/variables.css";
+@import "./base/reset.css";
+@import "./base/typography.css";
+@import "./base/globals.css";
+
+@import "./layout/main.css";
+@import "./layout/sidebar.css";
+
+@import "./components/buttons.css";
+@import "./components/inputs.css";
+@import "./components/cards.css";
+@import "./components/notifications.css";
+@import "./components/progress.css";
+
+@import "./pages/voice-recorder.css";
+@import "./pages/audio-uploader.css";
+@import "./pages/voice-cloner.css";
+@import "./pages/saved-voices.css";
+@import "./pages/text-to-speech.css";

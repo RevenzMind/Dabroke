@@ -1,0 +1,124 @@
+.sidebar {
+  width: var(--sidebar-width);
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid var(--border-color);
+  padding: var(--spacing-md) 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000000;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 var(--spacing-md) var(--spacing-md);
+  border-bottom: 1px solid var(--border-color);
+  gap: var(--spacing-xs);
+}
+
+.logo-container img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.logo-container h2,
+.logo {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.sidebar-nav,
+.nav-menu {
+  flex: 1;
+  padding: var(--spacing-md) 0;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav ul li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.sidebar-nav ul li button,
+.nav-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: var(--font-size-base);
+  text-align: left;
+  border-radius: var(--border-radius-sm);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sidebar-nav ul li button:hover,
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: translateX(2px);
+}
+
+.sidebar-nav ul li.active button,
+.nav-item.active {
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+  border-left: 3px solid var(--primary-color);
+}
+
+.sidebar-nav .icon,
+.nav-item .icon {
+  margin-right: var(--spacing-sm);
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-icons);
+  width: 1.2rem;
+  text-align: center;
+}
+
+.voice-count {
+  margin-left: auto;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+
+.sidebar-footer {
+  padding: var(--spacing-md);
+  border-top: 1px solid var(--border-color);
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.voices-count {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: var(--font-size-xs);
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-left: var(--spacing-xs);
+  min-width: 18px;
+  text-align: center;
+}

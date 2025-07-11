@@ -1,0 +1,52 @@
+.progress-container {
+  width: 100%;
+  background-color: var(--border-color);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  height: 8px;
+  margin: var(--spacing-sm) 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--primary-hover)
+  );
+  border-radius: var(--border-radius);
+  transition: width var(--transition-normal);
+  position: relative;
+}
+
+.progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+.progress-text {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: var(--spacing-xs);
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
