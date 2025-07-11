@@ -78,10 +78,13 @@ Esto demuestra la falta de seguridad en su infraestructura, permitiendo acceso d
 
 ### Usuarios de Windows
 
-Descarga la última versión de la aplicación desde:
-[https://github.com/RevenzMind/Dabroken/releases/download/1.0.0/dabroken.exe](https://github.com/RevenzMind/Dabroken/releases/download/1.0.0/dabroken.exe)
+<div>
 
-O visita la [página de releases](https://github.com/RevenzMind/Dabroken/releases) para ver todas las versiones disponibles.
+[![Download](https://img.shields.io/badge/Descargar-Dabroken%20v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/RevenzMind/Dabroke/releases/latest/dabroken.exe)
+
+</div>
+
+También puedes visitar la [página de releases](https://github.com/RevenzMind/Dabroken/releases/latest) para ver la última versión disponible.
 
 ### Prerrequisitos
 
