@@ -143,4 +143,6 @@ pnpm tauri build
 
 Un agradecimiento especial a GitHub Copilot por ayudar a organizar este proyecto y estructurar esta documentación de manera clara y efectiva.
 
+### Contacto
+rawencat@proton.me
 </div>
