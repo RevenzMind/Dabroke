@@ -80,7 +80,7 @@ Esto demuestra la falta de seguridad en su infraestructura, permitiendo acceso d
 
 <div>
 
-[![Download](https://img.shields.io/badge/Descargar-Dabroken%20v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/RevenzMind/Dabroke/releases/latest/dabroken.exe)
+[![Download](https://img.shields.io/badge/Descargar-Dabroken%20v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/RevenzMind/Dabroke/releases/latest/dabroke.exe)
 
 </div>
 
