@@ -61,8 +61,27 @@ Es **increíble** que la gente se sorprenda con cosas que son **fáciles de hace
 
 
 ---
+## 🔓 Endpoints Desprotegidos de Dababel
+
+He descubierto que Dababel expone los siguientes endpoints sin ninguna autenticación ni protección:
+
+```
+https://dababel-backend.onrender.com/upload
+https://dababel-backend.onrender.com/graphql
+```
+
+Esto demuestra la falta de seguridad en su infraestructura, permitiendo acceso directo a las APIs que utilizan para procesar los datos de voz y gestionar las solicitudes de los usuarios.
+
+> ⚠️ **Nota**: Esta información se comparte con fines educativos para demostrar las vulnerabilidades existentes. No se recomienda explotar estos endpoints.
 
 ## 🚀 Instalación
+
+### Usuarios de Windows
+
+Descarga la última versión de la aplicación desde:
+[https://github.com/RevenzMind/Dabroken/releases/download/1.0.0/dabroken.exe](https://github.com/RevenzMind/Dabroken/releases/download/1.0.0/dabroken.exe)
+
+O visita la [página de releases](https://github.com/RevenzMind/Dabroken/releases) para ver todas las versiones disponibles.
 
 ### Prerrequisitos
 
